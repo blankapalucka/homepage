@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Moja pierwsza strona</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="css/style.css" rel="stylesheet">
+  <script defer src="js/script.js"></script>
+
+  <title>Moja pierwsza strona</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body class="body">
+  <header>
+    <h1 class="heading">Blanka Pałucka</h1>
+    <button class="button">Włącz <span class="button__themeName"> ciemny </span> motyw</button>
+  </header>
+
+  <nav class="navigation">
+    <h2 class="navigation__header">Menu</h2>
+    <ul class="navigation__list">
+      <li class="navigation__item"></li> <a class="navigation__link" href="#o-mnie">O mnie</a></li>
+      <li class="navigation__item"></li> <a class="navigation__link" href="#zainteresowania">Zainteresowania</a></li>
+      <li class="navigation__item"></li> <a class="navigation__link" href="#utwory">Moje ulubione utwory</a></li>
+    </ul>
+  </nav>
+
+  <main>
+
+    <section id="o-mnie" class="section">
+      <h2 class="section__header">Kilka słów o mnie</h2>
+      <div class="section__imageContainer">
+        <img class="section__image" src="https://drive.google.com/uc?export=view&id=1bRlE3ojL3DeYNmm3-ZoH56XGG0c54Dyd"
+          alt="Blanka Pałucka- zdjęcie">
+      </div>
+      <p> Jestem z <strong> Krakowa. </strong> </p>
+      <p> Z wykształcenia jestem prawniczką oraz anglistką a obecnie pracuję jako office manager w firmie
+        edukacyjnej online.</p>
+    </section>
+
+    <section id="zainteresowania">
+      <h2 class="section__header">Zainteresowania</h2>
+      <p> angielski, gotowanie, gry planszowe,koty </p>
+    </section>
+
+    <section id="utwory" class="section__songs">
+      <table class="table">
+        <caption class="table__cell">Moje ulubione utwory</caption>
+        <tr class="table__row">
+          <th class="table__cell table__cell--header" scope="col">Tytuł</th>
+          <th class="table__cell table__cell--header" scope="col">Wykonawca</th>
+          <th class="table__cell table__cell--header" scope="col">Album</th>
+        </tr>
+        <tr class="table__row">
+          <th class="table__cell" scope="row">Chasing cars</th>
+          <td class="table__cell" rowspan="2">Snow Patrol</td>
+          <td class="table__cell" rowspan="2">Eyes Open</td>
+        </tr>
+        <th class="table__cell" scope="row">Set The Fire To The Third Bar</th>
+        <tr class="table__row">
+          <th class="table__cell" scope="row">This Right Here</th>
+          <td class="table__cell">Merketa Irglova</td>
+          <td class="table__cell">Muna</td>
+        </tr>
+      </table>
+    </section>
+
+  </main>
+
+  <footer>
+    <h3 class="footer">Copyright Ⓒ 2022. All rights reserved.</h3>
+  </footer>
+
+</body>
+
+</html>
