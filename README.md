@@ -1,6 +1,6 @@
 # My personal page
 
-### https://blankapalucka.github.io/my-personal-page/
+### https://blankapalucka.github.io/homepage
 ![Main View](./docs/main%20view.png)
 
 ##### Features
